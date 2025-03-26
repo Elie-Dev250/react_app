@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    
+  }
+    
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+    padding: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: hsl(211, 43%, 90%);
+    background-color: rgb(206, 27, 206);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    color: #333;
+  }.home{
+    background-color: yellow;
+    cursor: pointer;
+    
+  }.cont{
+    background-color: green;
+  }.about{
+    background-color: dodgerblue;
+  }.sev{
+    background-color: aqua;
+  }
+  
