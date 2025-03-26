@@ -19,7 +19,7 @@ createRoot(rootElement).render(
       <div>
         <nav>
           <ul>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/services">Service</Link></li>
             <li><Link to="/contact">Contact</Link></li>
@@ -28,7 +28,7 @@ createRoot(rootElement).render(
         </nav>
 
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/contact" element={<ContactPage />} />
