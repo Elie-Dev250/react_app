@@ -16,8 +16,9 @@ const App = () => {
             <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/login">Login</Link></li> 
-            <li><Link to="/service"></Link></li>
-            <li><Link to="/contact"></Link></li>
+            <li><Link to="/service">Service</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/more">More</Link></li>
           </ul>
         </nav>
 
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/login" element={<LoginPage />} /> 
           <Route path="/service" element={<ServicesPage />} /> 
           <Route path="/contact" element={<ContactPage />} /> 
+           <Route path="/more" element={<MorePage/>}/>
 
         </Routes>
       </div>

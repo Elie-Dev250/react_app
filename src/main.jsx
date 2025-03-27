@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage';
 import ServicesPage from "./pages/ServicesPage";
 import ContactPage from "./pages/ContactPage";
 import LoginPage from './pages/LoginPage';  // Import the LoginPage component
+import MorePage from "./pages/MorePage";
 
 import './styles.css'; 
 
@@ -24,6 +25,7 @@ createRoot(rootElement).render(
             <li><Link to="/services">Service</Link></li>
             <li><Link to="/contact">Contact</Link></li>
             <li><Link to="/login">Login</Link></li> {/* Add the Login link */}
+            <li><Link to="/more">More</Link></li>
           </ul>
         </nav>
 
@@ -33,6 +35,7 @@ createRoot(rootElement).render(
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/login" element={<LoginPage />} /> {/* Add the Login route */}
+          <Route path="/more" element={<MorePage/>}/>
         </Routes>
       </div>
     </Router>
