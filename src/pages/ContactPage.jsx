@@ -12,7 +12,7 @@ function ContactPage() {
 
   return (
     <div className='cont'>
-      <h1>Contact Us</h1>
+      <h1>Contact Us for more information please</h1>
       <form onSubmit={handleSubmit}>
         <textarea
           value={message}

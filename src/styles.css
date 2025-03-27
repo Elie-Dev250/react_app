@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #73d1b6;
   }
   
   nav ul {
@@ -36,8 +36,11 @@ body {
   h1 {
     color: #333;
   }.home{
-    background-color: yellow;
-    cursor: pointer;
+    
+    max-width: 1200px; /* Adjust width as needed */
+    margin: 0 auto;    /* Centers the content */
+    padding: 20px;     /* Adds some spacing */
+    box-sizing: border-box;
     
   }.cont{
     background-color: green;
@@ -45,5 +48,20 @@ body {
     background-color: dodgerblue;
   }.sev{
     background-color: aqua;
+  }.more1{
+    background-color: blueviolet;
+  }.lolo{
+    max-width: 1200px;
+    margin: 0 auto;    
+    padding: 20px;     
+    box-sizing: border-box;
+    background-color: yellow;
+    text-align: center;
+  }.hada{
+    background-color: yellow;
+
+
+  }.gg{
+    background-color: blue;
   }
   

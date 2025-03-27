@@ -12,7 +12,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div>
+    <div className='lolo'>
       <h1>Login</h1>
       <form onSubmit={handleSubmit}>
         <div>
