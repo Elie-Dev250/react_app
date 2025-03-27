@@ -4,6 +4,7 @@ import AboutPage from './pages/AboutPage';
 import LoginPage from './pages/LoginPage';
 import ServicesPage from './pages/ServicesPage'; 
 import ContactPage from './pages/ContactPage';
+import MorePage from './pages/MorePage';
  
 
 const App = () => {
